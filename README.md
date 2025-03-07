@@ -1,1 +1,3 @@
-# Assignment5
+This Java program is a menu-driven application designed to calculate the area, perimeter, and volume of different geometric shapes. It uses an abstract class Shape with common properties like dimensions and sides, along with abstract methods for area, perimeter, and volume calculations. Each specific shape — like Triangle, Square, Rectangle, Circle, Sphere, Cylinder, Cube, and Pyramid — extends the Shape class and provides its own implementation of these methods.
+
+For 3D shapes like Sphere, Cylinder, Cube, and Pyramid, the calculateVolume method returns a proper value, while for 2D shapes, it simply returns zero. The Main class provides a user-friendly menu, takes input for shape dimensions, and displays calculated results. The program uses inheritance, abstraction, and method overriding, demonstrating key object-oriented programming principles in Java. It efficiently handles user choices and ensures proper calculations for each shape.
